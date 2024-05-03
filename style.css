@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --primary-color: #F40000;
+    --secondary-color: #F44E3F;
+    --terciary-color: #F4796B;
+    --quarternary-color: #F4998D;
+    --black-color: #090809;
+}
