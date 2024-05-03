@@ -15,3 +15,30 @@ html {
     --quarternary-color: #F4998D;
     --black-color: #090809;
 }
+
+header {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.buttons {
+    width: 5rem;
+    height: 2.5rem;
+    border: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: var(--quarternary-color);
+}
